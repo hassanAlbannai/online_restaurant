@@ -1,0 +1,539 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+.indexbody {
+  background-image: url(projectImages/party.png);
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.stickydiv {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #281923;
+  opacity: 61%;
+  height: 85px;
+}
+
+.red {
+  background-color: #a80e0e;
+}
+
+.topnav ul {
+  list-style-type: none;
+}
+.topnav ul li {
+  padding: 14px 20px;
+  border-top: solid 5px;
+  border-color: transparent;
+  color: white;
+}
+.topnav ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav ul li:hover {
+  border-color: #ffaa00;
+  transition: 0.5s;
+}
+
+#cartb {
+  display: inline;
+}
+.bb {
+  text-align: center;
+}
+
+#cartnum {
+  width: fit-content;
+  margin: 0;
+  padding: 2px;
+  margin-left: 0.2rem;
+  background-color: #ffaa00;
+  color: #a80e0e;
+  display: inline;
+}
+.partyheader {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 900;
+  margin-left: 10rem;
+  font-size: 50px;
+  margin-bottom: 13rem;
+}
+
+.shape {
+  height: 120px;
+  width: 450px;
+  clip-path: polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%, 15% 50%);
+  background-color: #ffaa00;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 10rem;
+  position: relative;
+  margin-bottom: 13rem;
+}
+.shapetext {
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  transform: translateX(-30%);
+  font-size: x-large;
+  font-weight: lighter;
+}
+.buttons {
+  background-color: #ffaa00;
+  margin: 5px;
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+  font-size: small;
+  border-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.orderB {
+  color: #a80e0e;
+
+  margin-bottom: 28rem;
+  margin-left: 10rem;
+}
+.buttons:hover {
+  background-color: #ffdd00;
+  transition: 0.5s;
+}
+.eatheader {
+  text-align: center;
+  color: #a80e0e;
+  margin-top: 3rem;
+}
+.eatp {
+  text-align: center;
+}
+.foodt {
+  margin: 0 auto;
+}
+
+.foodt td p {
+  margin: 0 3rem;
+  text-align: center;
+}
+main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.deliverygrid {
+  background-color: #ffaa00;
+}
+
+.deliveryimg {
+  width: 100%;
+}
+
+.griditem2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  margin-top: 100px;
+  background-color: #a80e0e;
+  height: 200px;
+  width: 450px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  align-content: center;
+  color: #ffffff;
+  position: relative;
+}
+.triangle h2 {
+  position: absolute;
+  left: 30%;
+  bottom: 25%;
+  transform: translateX(-30%);
+}
+.deliverytext {
+  padding: 20px 60px 0px 40px;
+  color: #ffffff;
+}
+.title {
+  text-align: center;
+  margin-top: 3rem;
+  color: #a80e0e;
+}
+.titletext {
+  text-align: center;
+}
+
+.cardf {
+  box-shadow: 5px 5px 5px #f3f3f3cc;
+  border-radius: 15px;
+  border: 1px solid #e4e4e4cc;
+}
+.cardrow {
+  padding: 0 10rem;
+}
+.cardf h4,
+.cardf h3 {
+  font-weight: 200;
+  font-size: small;
+}
+.cardf h2 {
+  font-size: large;
+  font-weight: 400;
+}
+
+.Timg {
+  max-height: 25rem;
+  width: 100%;
+}
+.Ttext {
+  align-self: center;
+}
+.contactsection {
+  margin-top: 1rem;
+}
+.CUpart1 {
+  background-color: #a80e0e;
+}
+
+.imgsize {
+  width: 100%;
+}
+
+.CUcontent {
+  font-weight: 200;
+  list-style-type: none;
+  color: #ffffff;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.CUpart1 ul li img {
+  float: left;
+}
+.CUpart1 ul li {
+  margin-bottom: 3rem;
+}
+.CUpart1 ul li img {
+  margin-right: 1rem;
+}
+.CUpart1 ul li p {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.links {
+  margin-top: 3rem;
+}
+.links a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+.footer {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 1rem;
+}
+.fpart2 h3,
+.fpart3 h3 {
+  color: #a80e0e;
+  font-size: large;
+}
+.fpart2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+.fpart2 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.imgcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 0.25rem;
+}
+.imgcontainer div a img {
+  height: 100%;
+  width: 100%;
+}
+.BSS {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.BS {
+  margin-top: 1rem;
+}
+.BSgrid1 img {
+  border-radius: 10px;
+}
+.BSgrid2 h1 {
+  font-size: x-large;
+  color: #a80e0e;
+}
+.BSgrid2 h4,
+.BSgrid2 h3 {
+  font-weight: normal;
+  font-size: medium;
+}
+.BSbuttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spinnerbutton {
+  background: white;
+  border: 2px solid #ffaa00;
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  color: #a80e0e;
+  font-size: medium;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.spinnernum {
+  height: 30px;
+}
+.spinnernum::-webkit-inner-spin-button,
+.spinnernum ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.spinnernum:hover,
+.spinnerbutton:hover {
+  background-color: #ffaa00;
+  transition: 0.3s;
+}
+.pills {
+  margin: 1rem 10rem;
+}
+
+#desc h2 {
+  color: #a80e0e;
+  font-size: x-large;
+}
+#desc {
+  margin: 0 10rem;
+}
+
+.NFTable {
+  margin: 0 10rem;
+}
+.ntable {
+  border-collapse: collapse;
+  width: 100%;
+}
+.ntable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.ntable tr td {
+  padding: 8px 3px;
+  border: 1px solid #ddd;
+  margin: 0;
+}
+.ntable tr:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
+.ntable th {
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  width: fit-content;
+}
+.ntable td p,
+.ntable td h4,
+.ntable th h4 {
+  padding: 1px;
+  margin: 0px 0px 0px 0px;
+}
+.rev {
+  margin: 0 10rem;
+}
+.rev .cardrow {
+  padding: 0;
+}
+.revgrid {
+  display: grid;
+  grid-template-columns: 25rem 450px;
+}
+.revimgshadow {
+  box-shadow: 2px 2px 8px 8px #f0f0f0cc;
+}
+.revimgshadow img {
+  height: 100%;
+  width: 100%;
+}
+.revbutton {
+  margin: 1rem 0 0;
+  height: fit-content;
+  width: fit-content;
+  font-size: small;
+  color: #a80e0e;
+}
+.namefield {
+  width: 100%;
+  height: 30px;
+}
+.revarea {
+  width: 100%;
+}
+.fieldcolor {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 1px solid gray;
+  text-indent: 7px;
+}
+.fieldcolor:focus {
+  background-color: white;
+}
+.sbmt {
+  color: white;
+  width: 70px;
+  height: fit-content;
+}
+#addReview {
+  display: none;
+  margin-left: 900px;
+  transition: 1s ease-in-out;
+}
+
+#typereview {
+  color: #a80e0e;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+.clsb {
+  background-color: #a80e0e;
+  color: #000;
+}
+.clsb:hover {
+  background-color: #ff2e2e;
+  transition: 0.5s;
+}
+#ordernow {
+  color: #000;
+}
+.carousel .carousel-indicators button {
+  background-color: #ffaa00 !important;
+}
+
+.carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #ffaa00 !important;
+}
+
+.carousel .carousel-control-next .carousel-control-next-icon {
+  background-color: #ffaa00 !important;
+}
+@media screen and (max-width: 992px) {
+  .partyheader {
+    margin-left: 1.5rem;
+  }
+  .shape {
+    margin-left: 1.5rem;
+  }
+  .orderB {
+    margin-left: 1.5rem;
+  }
+  .cardrow {
+    padding: 0 2rem;
+  }
+  .CUcontent {
+    margin-left: 3rem;
+  }
+  .footer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .rev {
+    margin: 0 2rem;
+  }
+  .pills {
+    margin: 1rem 2rem;
+  }
+  .BSS {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .NFTable {
+    margin: 0 2rem;
+  }
+  #desc {
+    margin: 0 2rem;
+  }
+  .transparent {
+    background-color: #281923;
+    opacity: 61%;
+  }
+
+  .foodt td p {
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .partyheader {
+    margin-left: 1rem;
+  }
+  .shape {
+    margin-left: 1rem;
+  }
+  .orderB {
+    margin-left: 1rem;
+  }
+  .cardrow {
+    padding: 0 1rem;
+  }
+  .CUcontent {
+    margin-left: 1rem;
+  }
+  .footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .rev {
+    margin: 0 1rem;
+  }
+  .pills {
+    margin: 1rem 1rem;
+  }
+  .BSS {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .NFTable {
+    margin: 0 1rem;
+  }
+  #desc {
+    margin: 0 1rem;
+  }
+  .transparent {
+    background-color: #281923;
+    opacity: 61%;
+  }
+
+  .foodt td p {
+    margin: 0 0.5rem;
+  }
+}
